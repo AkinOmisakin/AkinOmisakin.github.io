@@ -11,18 +11,22 @@ header {
     padding: 1em;
 }
 
-ul {
+.nav-bar {
+    align-items: center;
+    display: flex;
+    background-color: #ccc;
+}
+
+.nav-links {
     list-style-type: none;
+    width: 100%;
     margin: 0;
     padding: 0;
-    width: 100%;
     overflow: hidden;
-    background-color: #ccc;
 }
 
 li {
     display: inline-block;
-    /*float: left;*/
 }
 
 li a {
@@ -30,8 +34,6 @@ li a {
     padding: 1em;
     text-decoration: none;
     color: #333;
-    background-color: #ccc;
-    border-bottom: 1px solid #fff;
 }
 
 li a:hover {
