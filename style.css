@@ -11,6 +11,33 @@ header {
     padding: 1em;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #ccc;
+}
+
+li {
+    display: inline-block;
+    /*float: left;*/
+}
+
+li a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: #333;
+    background-color: #ccc;
+    border-bottom: 1px solid #fff;
+}
+
+li a:hover {
+    background-color: #111;
+    color: #fff;}
+
 .container {
     max-width: 800px;
     margin: 0 auto;
