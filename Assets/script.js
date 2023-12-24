@@ -1,1 +1,1 @@
-// var let const
+// implements event handlers for the buttons
