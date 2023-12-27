@@ -30,13 +30,14 @@ header {
 .nav-bar {
     text-align: left;
     align-items: center;
-    display: flex;
-    background-color: #ccc;
+    display: contents;
+    color: #fff;
 }
 
 .nav-links {
     list-style-type: none;
     width: 100%;
+    /*display: contents;*/
 }
 
 li {
@@ -44,11 +45,13 @@ li {
 }
 
 li a {
-    display: block;
+    /*display: block;*/
     padding: 1em;
     text-decoration: none;
-    color: #333;
     transition: ease-in 0.6s;
+}
+li a :visited {
+    color: #fff;
 }
 
 div {
